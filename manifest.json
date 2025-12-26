@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Gemini Navigator",
+    "version": "1.0",
+    "description": "Automatically sync Chrome tab labels and generate a right-side conversation directory",
+    "permissions": ["storage"],
+    "icons": {
+      "16": "icons/gemini navigator icon-16.png",
+      "32": "icons/gemini navigator icon-32.png",
+      "48": "icons/gemini navigator icon_48.png",
+      "128": "icons/gemini navigator icon-128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://gemini.google.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
