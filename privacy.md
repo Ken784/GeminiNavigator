@@ -1,6 +1,3 @@
----
-layout: default
----
 # Privacy Policy
 
 **Last Updated:** [Date]
