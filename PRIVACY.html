@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Gemini Navigator</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a73e8;
+            border-bottom: 3px solid #1a73e8;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h2 {
+            color: #5f6368;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+        h3 {
+            color: #80868b;
+            margin-top: 25px;
+        }
+        p {
+            margin: 15px 0;
+        }
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        strong {
+            color: #1a73e8;
+        }
+        hr {
+            border: none;
+            border-top: 2px solid #e0e0e0;
+            margin: 30px 0;
+        }
+        .last-updated {
+            color: #5f6368;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        
+        <p class="last-updated"><strong>Last Updated:</strong> December 26, 2025</p>
+        
+        <h2>Overview</h2>
+        
+        <p>Gemini Navigator ("we", "our", or "the extension") is committed to protecting your privacy. This privacy policy explains what data we collect, how we use it, and your rights regarding your data.</p>
+        
+        <h2>Data Collection</h2>
+        
+        <h3>What Data We Collect</h3>
+        
+        <p>The extension collects the following data from the Google Gemini website (<code>https://gemini.google.com/*</code>):</p>
+        
+        <ol>
+            <li><strong>Conversation Text Content</strong>: Text content from your conversations with Gemini, specifically:
+                <ul>
+                    <li>User query text (messages you send to Gemini)</li>
+                    <li>Conversation titles</li>
+                    <li>Text extracted from conversation elements in the DOM</li>
+                </ul>
+            </li>
+            <li><strong>Page Metadata</strong>: 
+                <ul>
+                    <li>Page title information</li>
+                    <li>DOM structure related to conversations</li>
+                </ul>
+            </li>
+        </ol>
+        
+        <h3>How We Collect Data</h3>
+        
+        <p>Data is collected locally in your browser through:</p>
+        <ul>
+            <li><strong>DOM Reading</strong>: The extension reads conversation elements directly from the Gemini webpage's DOM structure</li>
+            <li><strong>Title Monitoring</strong>: Monitoring the page title element to detect conversation title changes</li>
+        </ul>
+        
+        <h2>Data Usage</h2>
+        
+        <p>The collected data is used exclusively for the following purposes:</p>
+        
+        <ol>
+            <li><strong>Tab Title Synchronization</strong>: To update your Chrome browser tab title with the current conversation title</li>
+            <li><strong>Navigation Index Generation</strong>: To create a clickable sidebar index of your conversation items</li>
+            <li><strong>User Experience Enhancement</strong>: To provide smooth navigation and prevent title rollback issues</li>
+        </ol>
+        
+        <h2>Data Storage</h2>
+        
+        <h3>Current Implementation</h3>
+        
+        <p>Currently, all data processing happens <strong>in real-time</strong> and <strong>in memory only</strong>. The extension:</p>
+        <ul>
+            <li>Does not permanently store conversation content</li>
+            <li>Does not save data to disk or external servers</li>
+            <li>Processes data only while you are actively using the Gemini website</li>
+        </ul>
+        
+        <h3>Storage Permission</h3>
+        
+        <p>The extension requests the <code>storage</code> permission for potential future enhancements such as:</p>
+        <ul>
+            <li>Caching conversation metadata for improved performance</li>
+            <li>Storing user preferences (e.g., sidebar visibility state)</li>
+            <li>Maintaining state consistency across page refreshes</li>
+        </ul>
+        
+        <p><strong>Note</strong>: As of the current version, the storage API is not actively used. If we implement storage features in the future, we will update this privacy policy accordingly.</p>
+        
+        <h2>Data Transmission</h2>
+        
+        <p><strong>We do NOT transmit any data to external servers.</strong></p>
+        
+        <ul>
+            <li>All data processing occurs locally in your browser</li>
+            <li>No conversation content is sent to third-party servers</li>
+            <li>No analytics or tracking data is collected or transmitted</li>
+            <li>The extension operates entirely offline after installation</li>
+        </ul>
+        
+        <h2>Data Sharing</h2>
+        
+        <p><strong>We do NOT share your data with anyone.</strong></p>
+        
+        <ul>
+            <li>No third-party services receive your data</li>
+            <li>No advertising networks have access to your information</li>
+            <li>No data is sold or monetized</li>
+        </ul>
+        
+        <h2>Scope of Access</h2>
+        
+        <p>The extension only operates on:</p>
+        <ul>
+            <li><strong>Single Domain</strong>: <code>https://gemini.google.com/*</code></li>
+            <li><strong>No Other Websites</strong>: The extension does not access, read, or modify any other websites you visit</li>
+        </ul>
+        
+        <h2>Your Rights</h2>
+        
+        <p>You have the right to:</p>
+        
+        <ol>
+            <li><strong>Disable the Extension</strong>: You can disable or uninstall the extension at any time through Chrome's extension management page (<code>chrome://extensions/</code>)</li>
+            <li><strong>No Data Retention</strong>: Since we don't permanently store your data, disabling the extension immediately stops all data collection</li>
+            <li><strong>Transparency</strong>: This privacy policy provides full disclosure of our data practices</li>
+        </ol>
+        
+        <h2>Security</h2>
+        
+        <ul>
+            <li>All data processing happens locally in your browser's secure environment</li>
+            <li>The extension uses Chrome's built-in security mechanisms</li>
+            <li>No external network connections are made for data transmission</li>
+        </ul>
+        
+        <h2>Changes to This Privacy Policy</h2>
+        
+        <p>We may update this privacy policy from time to time. We will notify users of any material changes by:</p>
+        <ul>
+            <li>Updating the "Last Updated" date at the top of this policy</li>
+            <li>Posting a notice in the extension's release notes (if applicable)</li>
+        </ul>
+        
+        <h2>Contact</h2>
+        
+        <p>If you have any questions about this privacy policy or our data practices, please open an issue on our GitHub repository.</p>
+        
+        <h2>Compliance</h2>
+        
+        <p>This extension complies with:</p>
+        <ul>
+            <li>Chrome Web Store Developer Program Policies</li>
+            <li>General Data Protection Regulation (GDPR) principles</li>
+            <li>California Consumer Privacy Act (CCPA) requirements</li>
+        </ul>
+        
+        <hr>
+        
+        <p><strong>Summary</strong>: Gemini Navigator processes your conversation text locally in your browser to provide navigation features. No data leaves your device or is shared with anyone.</p>
+    </div>
+</body>
+</html>
+
