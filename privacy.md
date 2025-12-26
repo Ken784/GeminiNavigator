@@ -1,9 +1,6 @@
----
-layout: default
----
 # Privacy Policy
 
-**Last Updated:** [Date]
+**Last Updated:** December 26, 2025
 
 ## Overview
 
